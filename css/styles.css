@@ -94,6 +94,12 @@ body {
     justify-content: center;
     border-radius: 50%;
     font-size: 2rem;
+    transition: transform 500ms ease;
+}
+
+.action:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .actions .action:nth-child(1) {
@@ -110,4 +116,15 @@ body {
 
 .actions .action:nth-child(3) {
     color: #1be4a1;
+}
+
+@media(min-widht: 1025px){
+    .photo {
+        width: 367px;
+        height: 684px;
+    }
+    .navbar {
+        width: 400px;
+        margin: auto;
+    }
 }
